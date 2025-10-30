@@ -9,6 +9,11 @@ export default function AirdropForm(){
     const [tokenAddress, setTokenAddress] = useState("")
     const [recipients, setRecipients] = useState("")
     const [amounts, setAmounts] = useState("")
+
+    async function handleSubmit(){
+        console.log(tokenAddress, recipients, amounts)
+    }
+
     return(
         <div>
             <InputForm
@@ -30,6 +35,10 @@ export default function AirdropForm(){
             value={amounts}
             onChange={e => setAmounts(e.target.value)}
             />
+
+            <button onClick={handleSubmit}>
+                Send tokens
+            </button>
         </div>
     )
 }
