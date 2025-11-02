@@ -5,7 +5,8 @@ import { useMemo, useState } from "react"
 import { chainsToTSender, tsenderAbi, erc20Abi } from "@/constants"
 import {useChainId, useConfig, useReadContract, useAccount} from "wagmi"
 import {readContract}   from "@wagmi/core"
-import { calculateTotal } from "@/util/calculateTotal/calculateTotal"
+import { calculateTotal } from "@/utils"
+
 
 
 export default function AirdropForm(){
