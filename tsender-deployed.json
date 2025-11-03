@@ -109,7 +109,7 @@
             "header": {
                 "parentHash": "0x6b5e521bbad2666696d13ac79408bc806026b64ccc904aacc3f508ec9b8a3d71",
                 "ommersHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-                "beneficiary": "0x0000000000000000000000000000000000000000",
+                "beneficiary": "0x0000000000000000000000000000000000000000",    
                 "stateRoot": "0x975b55222e9a73308f7afc59c506ef6ea6b32733d80484c272df96deff528fe1",
                 "transactionsRoot": "0xf44fd3ea54cb1e690a02ad10857d3d83bc2cdc25600686ba1cb0434c251ab55d",
                 "receiptsRoot": "0x92078071e71c86a2b58b589cb73e571dcb3581013715e3f597eb6b283036980a",
