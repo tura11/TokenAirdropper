@@ -8,4 +8,3 @@ contract MockToken is ERC20 {
         _mint(msg.sender, initialSupply);
     }
 }
-//token addres 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
