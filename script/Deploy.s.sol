@@ -8,7 +8,7 @@ import {MockTSender} from "../src/MockTSender.sol";
 contract Deploy is Script {
     function run() external {
 
-        uint256 deployerPrivateKey = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80;
+        uint256 deployerPrivateKey = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80; //first anvil private key
 
 
         vm.startBroadcast(deployerPrivateKey);
@@ -31,5 +31,5 @@ contract Deploy is Script {
 }
 
 
-//   MockToken deployed at: 0x851356ae760d987E095750cCeb3bC6014560891C
-//   MockTSender deployed at: 0xf5059a5D33d5853360D16C683c16e67980206f36
+//   MockToken: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+//   MockTSender: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
