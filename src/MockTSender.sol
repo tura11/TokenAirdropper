@@ -20,13 +20,13 @@ contract MockTSender {
 
         IERC20 token = IERC20(tokenAddress);
 
-        // Najpierw pobieramy wszystkie tokeny od użytkownika
+
         bool success = token.transferFrom(msg.sender, address(this), totalAmount);
         if (!success) revert TransferFailed();
 
         uint256 addedAmount = 0;
 
-        // A teraz rozsyłamy je do odbiorców
+
         for (uint256 i = 0; i < recipients.length; i++) {
             if (recipients[i] == address(0)) revert ZeroAddress();
 
